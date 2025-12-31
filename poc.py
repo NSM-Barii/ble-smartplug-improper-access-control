@@ -37,7 +37,7 @@ class POC():
         """This method will perform a layer 3 deauth attack on the target ssid only targetting the client (Smart plug)"""
 
         
-        print("[*] Launching Deauth Attack!") 
+        print("[*] Launching WiFi Deauth Attack!") 
         
 
         while cls.deauth:
@@ -62,7 +62,7 @@ class POC():
         """Perform unauthorized connection"""
 
 
-        print("[*] Attempting connection...")
+        print("[*] Attempting BLE connection...")
         
 
 
